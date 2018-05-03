@@ -1,0 +1,144 @@
+div#carousel-1.carousel.slide{
+  overflow:hidden;
+  height:500px;
+  widht:100%;
+  width:100%;
+  margin-top:0px;
+  background-size:cover;
+}
+
+img.img-rounded.img-responsive{
+  background-size:cover;
+}
+
+img{
+  height:100%;
+  width:100%;
+}
+
+a.text-muted.bg-info{
+  padding:5px;
+}
+
+a.text-muted.bg-info{
+  background:#262626;
+}
+
+body{
+  font-family:Quicksand;
+}
+
+h1{
+  padding:6px;
+}
+
+h3.panel-title{
+  height:26px;
+}
+
+a.navi{
+  font-weight:500;
+}
+
+div#carousel-1.carousel.slide{
+  height:400px;
+  overflow:hidden;
+}
+
+img.img-rounded.img-responsive{
+  height:350px;
+}
+
+div#carousel-1.carousel.slide{
+  height:450px;
+  background-color:#262626;
+  background-size:cover;
+}
+
+img.img-rounded.img-responsive{
+  height:auto;
+  width:100%;
+}
+
+div.jumbotron.hero-technology{
+  background-attachment:fixed;
+}
+
+nav.navbar.navbar-default.custom-header{
+  background:#262626;
+  font-family:Quicksand;
+  font-size:26px;
+}
+
+ul.nav.navbar-nav.links{
+  font-family:Quicksand;
+}
+
+h1{
+  font-family:Quicksand;
+}
+
+form.form-horizontal.custom-form{
+  font-family:Quicksand;
+}
+
+label.control-label{
+}
+
+label.control-label{
+  text-align:left;
+}
+
+label{
+  height:28px;
+  font-family:Quicksand;
+}
+
+div.col-sm-4.label-column{
+}
+
+input{
+  box-shadow:4px,4px,4px,blue;
+}
+
+w{
+}
+
+input.form-control{
+  width:100%;
+}
+
+img.img-rounded.img-responsive{
+}
+
+, presentation.a{
+  font-family:Quicksand;
+}
+
+presentation.a{
+}
+
+.presentation a{
+  font-family:Quicksand;
+}
+
+li::hover{
+  background:springmediumgreen;
+}
+
+li a:hover{
+  transform:translate(1.2);
+}
+
+ul.nav.navbar-nav:hover.links{
+  transform:scale(1.1);
+  background:mediumspringgreen;
+}
+
+div.col-md-12{
+  background:#262626;
+  color:#fff;
+  padding-left:30px;
+  margin-left:10px;
+}
+

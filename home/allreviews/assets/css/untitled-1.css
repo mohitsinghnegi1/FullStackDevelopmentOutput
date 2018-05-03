@@ -1,0 +1,52 @@
+.jumbotron {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-bottom:30px;
+  color:inherit;
+  margin-top:10px;
+  /*background-imag:url("../../assets/img/p4.jpg");*/
+  background-attachment:url("../../assets/img/p4.jpg");
+  /*background-color:black;*/
+  background-size:cover;
+  height:60vh;
+  /*background-image:url('../../assets/img/p5.jpg');*/
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+  font-weight:700;
+  color:#897719;
+  margin-top:40px;
+  margin-bottom:26px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius:6px;
+  padding-left:15px;
+  padding-right:15px;
+  /*background-image:url('http://streamafrica.com/wp-content/uploads/2016/01/hotels-4.jpg');*/
+  backface-visibility:0em;
+  background-image:null;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius:6px;
+  padding-left:15px;
+  padding-right:15px;
+  background-image:url('../../assets/img/p5.jpg');
+  backface-visibility:0em;
+  background-image:null;
+}
+
+.text-muted {
+  color:#287992;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+  font-weight:1000;
+  line-height:1.1;
+  color:#f9f9f9;
+  font-family:inherit;
+}
+

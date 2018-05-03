@@ -1,0 +1,218 @@
+.breadcrumb {
+  text-align:center;
+  background-color:transparent;
+  border-bottom:1px solid #eee;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-bottom:40px;
+}
+
+nav.navbar.navbar-default {
+  margin-bottom:0px;
+}
+
+@media (min-width:992px) {
+  .product h2 {
+    margin-top:0;
+  }
+}
+
+.navbar .navbar-brand {
+  font-size:24px;
+  line-height:18px;
+}
+
+.reviewer-name {
+  margin-right:10px;
+}
+
+.site-footer {
+  padding:20px 0;
+  text-align:center;
+  max-height:0em;
+}
+
+@media (min-width:768px) {
+  .site-footer h5 {
+    text-align:left;
+  }
+}
+
+.site-footer h5 {
+  color:inherit;
+  font-size:16px;
+}
+
+.site-footer .social-icons a:hover {
+  opacity:1;
+}
+
+.site-footer .social-icons a {
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color:#798FA5;
+  height:32px;
+  opacity:0.8;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons {
+    text-align:right;
+  }
+}
+
+.btn.write-review {
+  float:right;
+  margin-top:-6px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display:block;
+  max-width:100%;
+  height:auto;
+}
+
+.glyphicon {
+  position:relative;
+  top:1px;
+  display:inline-block;
+  font-family:'Glyphicons Halflings';
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+i.glyphicon.glyphicon-lamp {
+  color:brown;
+  height:10px;
+  width:20px;
+  margin-right:1em;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+  color:#ffffff;
+  background-color:#000000;
+  border-color:#fcc963;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+  color:#ffffff;
+  background-color:#e89c4c;
+  border-color:#dcbe56;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  color:#ffffff;
+  background-color:#995d31;
+  border-color:#d08b64;
+}
+
+.btn-default:hover {
+  color:#ffffff;
+  background-color:#ee350c;
+  border-color:#7a7a7a;
+}
+
+.jumbotron {
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-bottom:30px;
+  color:inherit;
+  margin-top:10px;
+  background-image:url("../../assets/img/p4.jpg");
+  background-size:cover;
+  height:50vh;
+}
+
+p {
+  margin:0 0 10.5px;
+  margin-bottom:20px;
+  font-size:150%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+  font-weight:1000;
+  line-height:1.1;
+  color:#9a1a1a;
+  font-family:inherit;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius:6px;
+  padding-left:15px;
+  padding-right:15px;
+  background-image:url('http://streamafrica.com/wp-content/uploads/2016/01/hotels-4.jpg');
+  backface-visibility:0em;
+  background-position:initial;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family:"News Cycle","Arial Narrow Bold",sans-serif;
+  font-weight:1000;
+  line-height:1.1;
+  color:#9a1a1a;
+  font-family:inherit;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display:block;
+  margin-bottom:1em;
+}
+
+h3.text-center {
+  color:rgb(29,143,169);
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position:relative;
+  min-height:1px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+img {
+  vertical-align:middle;
+  /*align-content:center;*/
+  margin-left:4em;
+}
+
+a.btn.btn-default.active.btn-block.hover {
+  color:black;
+}
+
+a.btn.btn-default.active.btn-block:hover {
+  background-color:black;
+}
+
+img.img-responsive {
+  height:25em;
+}
+
+hr {
+  -webkit-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  box-sizing:content-box;
+  height:0;
+  background-color:#a52a2a;
+  border-style:solid;
+  border-bottom-style:solid;
+}
+
+img.img-rounded.img-responsive {
+  position:fixed;
+}
+
+div.jumbotron {
+  /*background-attachment:fixed;*/
+}
+

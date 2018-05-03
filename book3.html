@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap2 (copy)</title>
+    <link rel="stylesheet" href="assets3/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets3/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets3/css/styles.css">
+    <link rel="stylesheet" href="assets3/css/Pretty-Footer.css">
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Home </a></li>
+        <li><a href="#">Rooms </a></li>
+        <li><a href="#">Specials </a></li>
+        <li><a href="#">PhotoGallery </a></li>
+        <li><a href="#">GuestBook </a></li>
+        <li><a href="#">Amenties </a></li>
+    </ul><img src="assets3/img/1.jpg" alt="restaurant image" width="100%" height="30%" id="image" class="image">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h1>Book Online</h1>
+                <form method="post" action="payment.php" >
+                <p id="p" class="p">CheckInDate* </p>
+                <input type="date" id="date" class="date" name="checkin">
+                <p id="p" class="p">CheckOutDate* </p>
+                <input type="date" id="date" class="date" name="checkout">
+                <p id="p" class="p">Adults </p>
+                <input type="number" value="1" min="0" max="10" name="adults">
+                <p id="p" class="p">Number of Rooms </p>
+                <input type="number" value="1" min="0" max="10" name="rooms">
+                <div class="dropdown open">
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="true" type="button" id="dropdoen">Type of Room<span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation"><a href="#">CLASS A</a></li>
+                        <li role="presentation"><a href="#">CLASS B</a></li>
+                        <li role="presentation"><a href="#">CLASS C</a></li>
+                    </ul>
+                </div><input type="submit"  class="btn btn-success active" name="submit" value="submit">
+				</form>
+				</div>
+				
+				
+				
+				
+            <div class="col-lg-3"><img src="assets3/img/inside_hotel.jpg" id="container2" class="container2">
+                <p>Spacious, bright and outward facing rooms measuring 19 m2 and totally refurbished. The room comes with Dreamax bed (manufactured and designed exclusively by Flex for Meliá Hotels International), a modern, fully equipped bathroom finished
+                    in top quality bronze coloured ceramics and an independent entrance. It also has a home automation system which automatically regulates the temperature of the room based on guest presence or absence from the room. They also provide
+                    an intelligent temperature management system that automatically adjusts the temperature depending on whether anyone is in the room..</p>
+                <ul class="p">
+                    <li class="p">Flat-screen TV </li>
+                    <li>Safe large enough for laptop </li>
+                    <li>Satellite Channels </li>
+                    <li>Minibar </li>
+                </ul>
+            </div>
+            <div class="col-lg-3"><img src="assets3/img/outdoor.jpg" id="container2" class="container2">
+                <p>When working in an office all day, a hotel with some breathing space is ideal, whether it be a rooftop, garden, or a park nearby..</p>
+            </div>
+            <div class="col-lg-3"><img src="assets3/img/conference.jpg" id="container2" class="container2">
+                <p>Looking for a conference venue to impress your guests? Well, the Landmark Hotel in London is a beautiful old-world hotel with Art Deco interiors and huge conference spaces that won’t fail to leave a great first impression. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 footer-navigation">
+                <h3><a href="#">Nirvana Exotica</a></h3>
+                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
+                <p class="company-name">
+                Nirvana </p>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p>Jalandhar,Punjab,India </p>
+                </div>
+                <div></div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">support@nirvanaexotica.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 footer-about">
+                <h4>About the hotel</h4>
+                <p>We have been serving our customers since 1992.Our only priority is the comfort abd bliassuli experience theat we can give to our customers..
+                </p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets3/js/jquery.min.js"></script>
+    <script src="assets3/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
